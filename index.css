@@ -1,0 +1,196 @@
+* {
+    margin: 0px;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  
+}
+
+.Logo {
+    width: 80px;
+    cursor: pointer;
+    margin: 30px 0;
+}
+
+.Menu {
+    width: 25px;
+    cursor: pointer;
+    margin-left: 40px;
+    display: none;
+}
+
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+nav ul li a:hover {
+    color: crimson;
+}
+
+.serchbar {
+    height: 18px;
+    float: right;
+    padding: 6px;
+    border: 3px solid;
+    margin-left: 30px;
+    font-size: 18px;
+    border-radius: 20px;
+   
+}
+.search{
+    cursor: pointer;
+    width: 50px;
+}
+.row {
+    display: block;
+    height: 88%;
+    align-items: center;
+    border-radius: 5px;
+    padding-left: 80px;
+   
+}
+
+.col {
+    flex-basis: 50%;
+}
+
+h1 {
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serifs;
+    margin-top: 95px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 15px;
+    margin-top: 10px;
+}
+
+.card {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.card1 {
+    background-image: url(image/Kitchens\ banner.jpg);
+}
+
+.card2 {
+    background-image: url(image/Wardrobes.jpg);
+}
+
+.card3 {
+    background-image: url(image/Room\ lighting.jpg);
+}
+
+.card4 {
+    background-image: url(image/Room\ Wallpaper.jpg);
+}
+
+.card5 {
+    background-image: url(image/wall.jpg);
+}
+
+.card6 {
+    background-image: url(image/Modular\ Wardrobes.jpg);
+}
+
+.card7 {
+    background-image: url(image/Dining\ Room.jfif);
+}
+
+.card8 {
+    background-image: url(image/Badroom.jpg);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+button {
+    width: 180px;
+    color: white;
+    font-size: 12px;
+    padding: 12px 0;
+    background: crimson;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.footer{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    color: white;
+    background-color: #14171c;
+}
+
+@media only screen and (max-width:700px) {
+    nav ul {
+        width: 100%;
+        background: lightcoral;
+        position: absolute;
+        top: 100px;
+        right: 0;
+        z-index: 2;
+    }
+    nav ul li {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    nav ul li a {
+        color: #fff;
+        padding-right: 10px;
+    }
+    .Menu {
+        display: block;
+    }
+    #menulist {
+        overflow: hidden;
+        transition: 0.5s;
+    }
+}
